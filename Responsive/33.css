@@ -1,0 +1,56 @@
+a {
+ color: black;
+ text-decoration: none;
+ 
+}
+
+.text {
+    padding: 10px 16px;
+}
+
+.text:hover {
+   color: rgb(255, 255, 255);
+   background-color: green; padding: 10px 16px;
+}
+
+.input {
+    border: none;
+    outline: none;
+    width: 100px;
+}
+
+.flex {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 4px;
+}
+.text5:hover {
+    background-color: gray;
+    padding: 0px 5px 7px;
+border-radius: 10px;
+
+
+}.text5 {
+    display: flex;
+    margin-left: 20px;
+align-items: center;
+}
+
+.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  .scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  .scrollmenu a:hover {
+    background-color: #1b1b1b;
+  }

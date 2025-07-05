@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+nav {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 0;
+}
+
+#nav-inner {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+
+#donate {
+    background-color:green;
+    color: white;
+    text-align: center;
+    padding: 16px 0;
+}
+
+#donate-button{
+border-radius: 100px;
+color: green;
+background-color: white;
+border: none;
+padding: 5px 15px;
+margin-left: 20px;
+}
+
+
+
+#landing-part {
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#landing-part h3 {
+    margin-top: 0;
+}
+
+#landing-part button {
+    background-color: white;
+    color: blueviolet;
+    padding: 5px 15px;
+    border: none;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+#landing-right {   
+    text-align: center;
+}
+
+#landing-right button {
+    background-color: purple;
+    color: white;
+}
+
+
+
+
+

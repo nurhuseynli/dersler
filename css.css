@@ -1,0 +1,31 @@
+.navbar-brand{
+
+    color: white !important;
+
+
+
+
+}
+.nav-link{
+
+    color: white !important;
+
+
+
+
+}
+
+nav{
+    background-color: rgb(197, 0, 223) !important;
+}
+
+input{
+    width: 250px;
+    outline: none;
+    padding: 3px;
+}
+
+textarea{
+    width: 250px;
+    outline: none;
+}

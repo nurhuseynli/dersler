@@ -1,0 +1,67 @@
+body {
+    margin:0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.cell {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: #eb108f;
+    border:5px solid #020001;
+    margin: 5px;
+    cursor: pointer
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

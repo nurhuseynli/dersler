@@ -1,0 +1,56 @@
+button {
+    background-color: rgb(255, 141, 230);
+    border: none;
+    border-radius: 10px;
+    width: 130px;
+    height: 50px;
+   margin-left: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#right {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+i {
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+
+.bs3 h1 {
+   cursor: pointer;
+}
+
+.bs3 h1:hover {
+    color: #EF0A6A;
+
+}
+
+.bs2 p:hover {
+    color: #EF0A6A;
+}
+
+.bs2 p {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#bs1 {
+    display: flex;justify-content: space-between; color: rgb(255, 254, 254);
+}
+
+#bs1 img {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}

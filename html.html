@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <img width="20%" height="60%" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Rock-paper-scissors_%28rock%29.png" alt="">
+    <img width="20%"  height="60%" src="https://upload.wikimedia.org/wikipedia/commons/a/af/Rock-paper-scissors_%28paper%29.png" alt="">
+    <img width="20%"  height="60%" src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Rock-paper-scissors_%28scissors%29.png" alt="">
+    <style>
+    body {
+         text-align: center;
+
+    }
+     div {
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+
+     }
+
+     img {
+
+        width:250px;
+        cursor: pointer 
+        }
+
+     
+
+
+     
+      
+    </style>
+</head>
+<body>
+    <script>
+        alert('Das, kagiz, ve qayci oyununa xos geldiniz');
+        var sechimler = ['das, kagiz, qayci'];
+
+        var komputerinSechimi = sechimler[Math.floor(Math.random() *2 )];
+        var istifadechininSechimi = prompt('das, kagiz, yoxsa qayci?').toLowerCase();
+
+        if (sechimler.includes(istifadechininSechimi) == false ){
+            alert('Bele bir secin yoxdur!' );
+        } 
+        else {
+            console.log("salam")
+
+            if (istifadechininSechimi == komputerinSechimi){ 
+                alert('Berabere, seciminiz:' + istifadechininSechimi);
+            }
+            else {
+              if (istifadechininSechimi == 'das') {
+                if (komputerinSechimi == 'kagiz') {
+                    alert(`komputerin qalib  geeldi, seciminiz komputerin: ${istifadechininSechimi} | komputerin secimi: ${komputerinSechimi}`)
+                } 
+                else if (komputerinSechimi =='qayci')
+                    alert(`komputerin qalib  geeldi, seciminiz komputerin: ${istifadechininSechimi} | komputerin secimi: ${komputerinSechimi}`)
+                   
+              } 
+            else if (istifadechininSechimi == 'das') {
+                if (komputerinSechimi == 'kagiz') {
+                    alert(`komputerin qalib  geeldi, seciminiz komputerin: ${istifadechininSechimi} | komputerin secimi: ${komputerinSechimi}`)
+                } else if (komputerinSechimi =='qayci')
+                    alert(`komputerin qalib  geeldi, seciminiz komputerin: ${istifadechininSechimi} | komputerin secimi: ${komputerinSechimi}`)
+                   
+              } else       if (komputerinSechimi == 'kagiz') {
+                    alert(`komputerin qalib  geeldi, seciminiz komputerin: ${istifadechininSechimi} | komputerin secimi: ${komputerinSechimi}`)
+                } else if (komputerinSechimi =='qayci')
+                    alert(`komputerin qalib  geeldi, seciminiz komputerin: ${istifadechininSechimi} | komputerin secimi: ${komputerinSechimi}`)
+        }
+    } 
+          
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

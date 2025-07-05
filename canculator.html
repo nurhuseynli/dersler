@@ -1,0 +1,171 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="canculator.css">
+    <style>
+        button{
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body  >
+    <div>
+
+    <div style="background-color: black;height: 500px; width: 350px;border-radius: 20px;margin-left: 40%;margin-top: 40px;">
+        <br><div>
+            <input type="text" class="number">
+        </div>
+        <div>
+            <button onclick="clearInput()" class="Btn">C</button>
+            <button onclick="buttonPressed(this)" class="Btn">/-</button>
+            <button onclick="calculate(this)" class="Btn">%</button>
+            <button onclick="calculate(this)" class="Btn-color">÷</button>
+        </div>
+        <br>
+        <div>
+            <button onclick="buttonPressed(this)" class="Btn-1">7</button>
+            <button onclick="buttonPressed(this)" class="Btn-1">8</button>
+            <button onclick="buttonPressed(this)" class="Btn-1">9</button>
+            <button onclick="calculate(this)" class="Btn-color">x</button>
+
+        </div>
+        <br>
+        <div>
+            <button onclick="buttonPressed(this)" class="Btn-1">4</button>
+            <button onclick="buttonPressed(this)" class="Btn-1">5</button>
+            <button onclick="buttonPressed(this)" class="Btn-1">6</button>
+            <button onclick="calculate(this)" class="Btn-color">-</button>
+
+        </div>
+        <br>
+        <div>
+            <button onclick="buttonPressed(this)" class="Btn-1">1</button>
+            <button onclick="buttonPressed(this)" class="Btn-1">2</button>
+            <button onclick="buttonPressed(this)" class="Btn-1">3</button>
+            <button onclick="calculate(this)" class="Btn-color">+</button>
+
+        </div>
+        <br>
+        <div>
+            <button onclick="buttonPressed(this)" class="Btn-0">0</button>
+            <button onclick="buttonPressed(this)" class="Btn-1">.</button>
+            <button onclick="resultButton()" class="Btn-color">=</button>
+
+        </div>
+
+    </div>
+</div>
+<script src="js.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="canculator.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .calculator {
+            background-color: black;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .number {
+            width: 100%;
+            padding: 20px;
+            text-align: right;
+            font-size: 30px;
+            border-radius: 10px;
+            border: none;
+            margin-bottom: 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        button {
+            width: 75px;
+            height: 75px;
+            margin: 5px;
+            border-radius: 10px;
+            border: none;
+            font-size: 20px;
+            background-color: #444;
+            color: aliceblue;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        .Btn-color {
+            background-color: #f79c42;
+        }
+
+        .Btn-color:hover {
+            background-color: #f39c12;
+        }
+
+        .Btn-0 {
+            width: 160px;
+        }
+
+        .Btn-1 {
+            width: 75px;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" class="number" id="result">
+        <div>
+            <button onclick="clearInput()" class="Btn">C</button>
+            <button onclick="plusMinus()" class="Btn">+/-</button>
+            <button onclick="calculate(this)" class="Btn-color">%</button>
+            <button onclick="calculate(this)" class="Btn-color">÷</button>
+        </div>
+        <div>
+            <button onclick="buttonPressed(this)" class="Btn-1">7</button>
+            <button onclick="buttonPressed(this)" class="Btn-1">8</button>
+            <button onclick="buttonPressed(this)" class="Btn-1">9</button>
+            <button onclick="calculate(this)" class="Btn-color">x</button>
+        </div>
+        <div>
+            <button onclick="buttonPressed(this)" class="Btn-1">4</button>
+            <button onclick="buttonPressed(this)" class="Btn-1">5</button>
+            <button onclick="buttonPressed(this)" class="Btn-1">6</button>
+            <button onclick="calculate(this)" class="Btn-color">-</button>
+        </div>
+        <div>
+            <button onclick="buttonPressed(this)" class="Btn-1">1</button>
+            <button onclick="buttonPressed(this)" class="Btn-1">2</button>
+            <button onclick="buttonPressed(this)" class="Btn-1">3</button>
+            <button onclick="calculate(this)" class="Btn-color">+</button>
+        </div>
+        <div>
+            <button onclick="buttonPressed(this)" class="Btn-0">0</button>
+            <button onclick="dot()" class="Btn-1">.</button>
+            <button onclick="resultButton()" class="Btn-color">=</button>
+        </div>
+    </div>
+    
+    <script src="js.js"></script>
+</body>
+</html>

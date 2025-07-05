@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        alert('Daş, kağız və qayçı oyununa xoş gəldiniz');
+        var sechimler = ['daş', 'kağız', 'qayçı'];
+
+        var komputerinSechimi = sechimler[Math.floor(Math.random() * 2)];
+        var istifadechininSechimi = prompt('daş, kağız, yoxsa qayçı?').toLowerCase();
+
+        if (sechimler.includes(istifadechininSechimi) == false) {
+            alert('Belə bir seçim yoxdur');
+        } else {
+            if (istifadechininSechimi == komputerinSechimi) {
+                alert('İkiniz də eyni seçimi etdiniz: ' + istifadechininSechimi);
+            } else {
+                if (istifadechininSechimi == 'daş') {
+                    if (komputerinSechimi == 'qayçı') {
+                        alert(Siz qalib gəldiniz, sizin seçiminiz ${istifadechininSechimi}, kompüterin seçimi ${komputerinSechimi})
+                    } else if (komputerinSechimi == 'kağız') {
+                        alert(Kompüter qalib gəldi, sizin seçiminiz ${istifadechininSechimi}, kompüterin seçimi ${komputerinSechimi})
+                    }
+                }
+                else if (istifadechininSechimi == 'kağız') {
+                    if (komputerinSechimi == 'daş') {
+                        alert(Siz qalib gəldiniz, sizin seçiminiz ${istifadechininSechimi}, kompüterin seçimi ${komputerinSechimi})
+                    } else if (komputerinSechimi == 'qayçı') {
+                        alert(Kompüter qalib gəldi, sizin seçiminiz ${istifadechininSechimi}, kompüterin seçimi ${komputerinSechimi})
+                    }
+                }
+                else {
+                    if (komputerinSechimi == 'kağız') {
+                        alert(Siz qalib gəldiniz, sizin seçiminiz ${istifadechininSechimi}, kompüterin seçimi ${komputerinSechimi})
+                    } else if (komputerinSechimi == 'daş') {
+                        alert(Kompüter qalib gəldi, sizin seçiminiz ${istifadechininSechimi}, kompüterin seçimi ${komputerinSechimi})
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>
